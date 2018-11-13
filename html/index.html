@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	
+	<link href="../css/mainStyle.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link id="favicon" rel="icon" href="../images/favicon.png" type="image/png" sizes="8x8">
+	
+	<meta charset="UTF-8"/>
+	<title></title>
+</head>
+
+<body>
+	<div class="mainContainer">
+		<div class="headingContainer">
+			<p>Train Schedules</p>
+		</div>
+		
+		<div class="scheduleContainer">
+			<table class="colorBrown">
+				<tr>
+					<td>
+						<b class="colorBlue">Train Name</b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Location Name</b>
+					</td>
+					<td>
+						<b>Train Time</b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<b>Location Name</b>
+					</td>
+					<td>
+						<b>Train Time</b>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="addTrainContainer">
+			<p class="smallHeading">Add a new train to the schedule</p>
+			<hr/>
+			<p>Train stops</p>
+			<br>
+			<ol id="addTo">
+				<li>
+					<p>Location: </p>
+					<input id="location1" type="text" value="Location"/>
+					<br/>
+					<p>Travel time: </p>
+					<input id="time1" type="number" value="10" min="1"/>
+					<br/>
+					<button toRemove="location1" class="colorRed" onclick="">Remove</button>
+				</li>
+			</ol>
+			<button id="addLocationButton" onclick="addLocation()">Add a location</button>
+			<br/>
+			<button id="addSchedule">Submit</button>
+		</div>
+		
+	</div>
+</body>
+
+</html>

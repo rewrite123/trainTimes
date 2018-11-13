@@ -1,0 +1,85 @@
+body{
+	background-color: #E8EEF2;
+	font-size: 18px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+div{
+	padding: 10px;
+}
+table{
+	width: 100%;
+}
+button{
+	font-size: 16px;
+	min-width: 75px;
+	min-height: 25px;
+	margin: 5px;
+	background-color: #2274A5;
+	border-color: #2274A5;
+	color: #37393A;
+}
+input{
+	
+}
+
+.mainContainer{
+	background-color: #C7D3DD;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	
+}
+.headingContainer{
+	background-color: #37393A;
+	color: black;
+	text-align: center;
+	min-height: 150px;
+	padding: 0px;
+	font-size: 36px;
+	font-family: Georgia;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.scheduleContainer{
+	
+}
+.addTrainContainer{
+	
+}
+.smallHeading{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* */
+
+.colorWhite{
+	color: bone;
+}
+.colorBlack{
+	color: black;
+}
+.colorRed{
+	color: #DF2935;
+}
+.colorGreen{
+	color: #00A676;
+}
+.colorBlue{
+	color: #2274A5;
+}
+.colorYellow{
+	color: #FCF151;
+}
+.colorOrange{
+	color: #FAA916;
+}
+.colorPurple{
+	color #A80874;
+}
+.colorBrown{
+	color: #61210F;
+}
